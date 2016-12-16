@@ -22,7 +22,7 @@ import re
 import ast
 
 
-#makes the array which represents the the sequencing events as reads pass randomly through the pore
+#makes the array which represents the sequencing events as reads pass randomly through the pore
 class amplicon_events:
     def __init__(self, num_amp=3, amp_prob=[0.01,0.2,0.1], event_num=100000, rand_len=True):
         #potential bases used
